@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap';
+import React, { Component } from "react";
+import { Card, CardBody, CardHeader, Col, Row } from "reactstrap";
 
 class Flags extends Component {
   render() {
@@ -7,13 +7,27 @@ class Flags extends Component {
       <div className="animated fadeIn">
         <Card>
           <CardHeader>
-            <i className="fa fa-font-awesome"></i> Flags
+            <i className="fa fa-font-awesome"></i> پرچم‌‌ها
           </CardHeader>
           <CardBody>
             <Row className="text-center">
               <Col className="mb-5 text-left" xs="12">
-                For using the flags inline with text add the classes <code>.flag-icon</code> and <code>.flag-icon-xx</code> (where xx is the ISO 3166-1-alpha-2
-                code of a country) to an empty span. If you want to have a squared version flag then add the class flag-icon-squared as well.
+                {/*  اضافه شده توسط مترجم شروع*/}
+                <Card className="align-content-between text-white bg-info">
+                  <CardBody className="pb-3">
+                    <div>
+                      {" "}
+                      برای استفاده از ایکون پرچم ابتدا به کلاس خود ويزگی{" "}
+                      ({" "}<code>.flag-icon</code>{" "}) اضافه کنید و سپس ويزگی{" "}
+                      ({" "}<code>.flag-icon-xx</code>{" "}) اضافه کنید(xx همان کد کشور
+                      مطابق با ایزو  3166-1-alpha-2 است) این کلاس باید در یک
+                      المنت SPAN خالی باشد. همچنین اگر می خواستید ایکون پرچم به
+                      صورت توانی(بالا و کنار یک نوشته یا هرچیزی) ضاهر شودبه کلاس
+                      خود ویژگی flag-icon-squared نیز اضافه کنید.{" "}
+                    </div>
+                  </CardBody>
+                </Card>
+                {/* اضافه شده توسط مترجم پایان*/}
               </Col>
               <Col className="mb-5" xs="3" sm="2">
                 <i className="flag-icon flag-icon-ad h1" title="ad" id="ad"></i>

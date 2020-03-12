@@ -7,14 +7,21 @@ class CoreUIIcons extends Component {
       <div className="animated fadeIn">
         <Card>
           <CardHeader>
-            <i className="fa fa-picture-o"></i>CoreUI Icons{' '} <Badge color={'info'}>New</Badge>
+            <i className="fa fa-picture-o"></i>ایکون‌های CoreUI{' '} <Badge color={'info'}>جدید</Badge>
             <div className="card-header-actions">
               <a href="https://github.com/coreui/coreui-icons" rel="noreferrer noopener" target="_blank" className="card-header-action">
-                <small className="text-muted">Github</small>
+                <small className="text-muted">گیت‌هاب</small>
               </a>
             </div>
           </CardHeader>
           <CardBody>
+{/*  اضافه شده توسط مترجم شروع*/}
+          <Card className="align-content-between text-white bg-info">
+              <CardBody className="pb-3">
+                <div> برای استفاده به صورت cui-name-below-icon استفاده کنید </div>
+              </CardBody>
+            </Card>
+{/* اضافه شده توسط مترجم پایان*/}
             <Row className="text-center">
               <Col xs="6" sm="4" md="3" xl="2">
                 <i className="cui-account-logout icons font-2xl d-block mt-4"></i>

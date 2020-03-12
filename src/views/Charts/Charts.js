@@ -4,10 +4,10 @@ import { Card, CardBody, CardColumns, CardHeader } from 'reactstrap';
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips';
 
 const line = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'اولین دیتابیس من',
       fill: false,
       lineTension: 0.1,
       backgroundColor: 'rgba(75,192,192,0.4)',
@@ -31,10 +31,10 @@ const line = {
 };
 
 const bar = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'اولین دیتابیس من',
       backgroundColor: 'rgba(255,99,132,0.2)',
       borderColor: 'rgba(255,99,132,1)',
       borderWidth: 1,
@@ -47,9 +47,9 @@ const bar = {
 
 const doughnut = {
   labels: [
-    'Red',
-    'Green',
-    'Yellow',
+    'قرمز',
+    'سبز',
+    'زرد',
   ],
   datasets: [
     {
@@ -68,10 +68,10 @@ const doughnut = {
 };
 
 const radar = {
-  labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
+  labels: ['خوردن', 'نوشیدن', 'خوابیدن', 'طراحی کردن', 'برنامه نوشتن', 'تکرار چرخه', 'اجرا شدن'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'اولین دیتابیس من',
       backgroundColor: 'rgba(179,181,198,0.2)',
       borderColor: 'rgba(179,181,198,1)',
       pointBackgroundColor: 'rgba(179,181,198,1)',
@@ -81,7 +81,7 @@ const radar = {
       data: [65, 59, 90, 81, 56, 55, 40],
     },
     {
-      label: 'My Second dataset',
+      label: 'دومین دیتابیس من',
       backgroundColor: 'rgba(255,99,132,0.2)',
       borderColor: 'rgba(255,99,132,1)',
       pointBackgroundColor: 'rgba(255,99,132,1)',
@@ -95,9 +95,9 @@ const radar = {
 
 const pie = {
   labels: [
-    'Red',
-    'Green',
-    'Yellow',
+    'قرمز',
+    'سبز',
+    'زرد',
   ],
   datasets: [
     {
@@ -132,14 +132,14 @@ const polar = {
         '#E7E9ED',
         '#36A2EB',
       ],
-      label: 'My dataset' // for legend
+      label: 'دیتا بیس من' // for legend
     }],
   labels: [
-    'Red',
-    'Green',
-    'Yellow',
-    'Grey',
-    'Blue',
+    'قرمز',
+    'سبز',
+    'زرد',
+    'خاکستری',
+    'آبی',
   ],
 };
 
@@ -158,10 +158,10 @@ class Charts extends Component {
         <CardColumns className="cols-2">
           <Card>
             <CardHeader>
-              Line Chart
+              چارت خطی
               <div className="card-header-actions">
                 <a href="http://www.chartjs.org" className="card-header-action">
-                  <small className="text-muted">docs</small>
+                  <small className="text-muted">سند</small>
                 </a>
               </div>
             </CardHeader>
@@ -173,10 +173,10 @@ class Charts extends Component {
           </Card>
           <Card>
             <CardHeader>
-              Bar Chart
+              چارت میله ای یا مستطیلی
               <div className="card-header-actions">
                 <a href="http://www.chartjs.org" className="card-header-action">
-                  <small className="text-muted">docs</small>
+                  <small className="text-muted">سند</small>
                 </a>
               </div>
             </CardHeader>
@@ -188,10 +188,10 @@ class Charts extends Component {
           </Card>
           <Card>
             <CardHeader>
-              Doughnut Chart
+              چارت دونات
               <div className="card-header-actions">
                 <a href="http://www.chartjs.org" className="card-header-action">
-                  <small className="text-muted">docs</small>
+                  <small className="text-muted">سند</small>
                 </a>
               </div>
             </CardHeader>
@@ -203,10 +203,10 @@ class Charts extends Component {
           </Card>
           <Card>
             <CardHeader>
-              Radar Chart
+              چارت را داری یا توضیع شدگی
               <div className="card-header-actions">
                 <a href="http://www.chartjs.org" className="card-header-action">
-                  <small className="text-muted">docs</small>
+                  <small className="text-muted">سند</small>
                 </a>
               </div>
             </CardHeader>
@@ -218,10 +218,10 @@ class Charts extends Component {
           </Card>
           <Card>
             <CardHeader>
-              Pie Chart
+              چارت دایره ای
               <div className="card-header-actions">
                 <a href="http://www.chartjs.org" className="card-header-action">
-                  <small className="text-muted">docs</small>
+                  <small className="text-muted">سند</small>
                 </a>
               </div>
             </CardHeader>
@@ -233,10 +233,10 @@ class Charts extends Component {
           </Card>
           <Card>
             <CardHeader>
-              Polar Area Chart
+              چارت قطبی 
               <div className="card-header-actions">
                 <a href="http://www.chartjs.org" className="card-header-action">
-                  <small className="text-muted">docs</small>
+                  <small className="text-muted">سند</small>
                 </a>
               </div>
             </CardHeader>

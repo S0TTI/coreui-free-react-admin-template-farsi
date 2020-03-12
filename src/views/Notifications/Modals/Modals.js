@@ -156,17 +156,17 @@ class Modals extends Component {
                 <Button color="success" onClick={this.toggleSuccess} className="mr-1">Success modal</Button>
                 <Modal isOpen={this.state.success} toggle={this.toggleSuccess}
                        className={'modal-success ' + this.props.className}>
-                  <ModalHeader toggle={this.toggleSuccess}>Modal title</ModalHeader>
+                  <ModalHeader toggle={this.toggleSuccess}>عنوان مودال</ModalHeader>
                   <ModalBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    یک مقدار متن برای تست یک مقدار متن برای تست یک مقدار متن برای تست
+                    یک مقدار متن برای تست یک مقدار متن برای تست یک مقدار متن برای تست
+                    یک مقدار متن برای تست
                   </ModalBody>
-                  <ModalFooter>
-                    <Button color="success" onClick={this.toggleSuccess}>Do Something</Button>{' '}
-                    <Button color="secondary" onClick={this.toggleSuccess}>Cancel</Button>
+                  <ModalFooter className="float-right">
+                    <div dir="rtl" className="float-right">
+                    <Button className="ml-6" color="success" onClick={this.toggleSuccess}>تایید</Button>{'        '}
+                    <Button color="secondary" onClick={this.toggleSuccess}>لغو</Button>
+                    </div>
                   </ModalFooter>
                 </Modal>
 

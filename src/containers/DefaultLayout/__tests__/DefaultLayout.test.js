@@ -5,6 +5,6 @@ import DefaultLayout from '../DefaultLayout';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<MemoryRouter><Route path="/" name="Home" component={DefaultLayout} /></MemoryRouter>, div);
+  ReactDOM.render(<MemoryRouter><Route path="/" name="خانه" component={DefaultLayout} /></MemoryRouter>, div);
   ReactDOM.unmountComponentAtNode(div);
 });

@@ -9,24 +9,24 @@ class Badges extends Component {
           <Col xs="12" md="6">
             <Card>
               <CardHeader>
-                <i className="fa fa-align-justify"></i><strong>Badges</strong>
+                <i className="fa fa-align-justify"></i><strong>برجسته کردن</strong>
                 <div className="card-header-actions">
                   <a href="https://reactstrap.github.io/components/badge/" rel="noreferrer noopener" target="_blank" className="card-header-action">
-                    <small className="text-muted">docs</small>
+                    <small className="text-muted">اسناد</small>
                   </a>
                 </div>
               </CardHeader>
               <CardBody>
-                <h1>Heading <Badge color="secondary">New</Badge></h1>
-                <h2>Heading <Badge color="secondary">New</Badge></h2>
-                <h3>Heading <Badge color="secondary">New</Badge></h3>
-                <h4>Heading <Badge color="secondary">New</Badge></h4>
-                <h5>Heading <Badge color="secondary">New</Badge></h5>
-                <h6>Heading <Badge color="secondary">New</Badge></h6>
+                <h1>Heading 1<Badge color="primary">جدید</Badge></h1>
+                <h2>Heading 2<Badge color="secondary">جدید</Badge></h2>
+                <h3>Heading 3<Badge color="danger">جدید</Badge></h3>
+                <h4>Heading 4<Badge color="info">جدید</Badge></h4>
+                <h5>Heading 5<Badge color="warning">جدید</Badge></h5>
+                <h6>Heading 6<Badge color="dark">جدید</Badge></h6>
               </CardBody>
               <CardFooter>
-                <Button color="primary" outline>
-                  Notifications <Badge color="secondary" pill style={{ position: 'static' }}>9</Badge>
+                <Button color="primary" >
+                  پیام جدید <Badge color="secondary" pill style={{ position: 'static' }}>6</Badge>
                 </Button>
               </CardFooter>
             </Card>
@@ -34,7 +34,7 @@ class Badges extends Component {
           <Col xs="12" md="6">
             <Card>
               <CardHeader>
-                <i className="fa fa-align-justify"></i><strong>Badges</strong> <small>contextual variations</small>
+                <i className="fa fa-align-justify"></i><strong>برچسب</strong> <small>contextual variations</small>
               </CardHeader>
               <CardBody>
                 <Badge className="mr-1" color="primary">Primary</Badge>
@@ -49,7 +49,7 @@ class Badges extends Component {
             </Card>
             <Card>
               <CardHeader>
-                <i className="fa fa-align-justify"></i><strong>Badges</strong> <small>pill badges</small>
+                <i className="fa fa-align-justify"></i><strong>برچسب</strong> <small>pill badges</small>
               </CardHeader>
               <CardBody>
                 <Badge className="mr-1" color="primary" pill>Primary</Badge>

@@ -33,10 +33,10 @@ const brandDanger = getStyle('--danger')
 
 // Card Chart 1
 const cardChartData1 = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'اولین دیتا بیس من',
       backgroundColor: brandPrimary,
       borderColor: 'rgba(255,255,255,.55)',
       data: [65, 59, 84, 84, 51, 55, 40],
@@ -91,10 +91,10 @@ const cardChartOpts1 = {
 
 // Card Chart 2
 const cardChartData2 = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'اولین دیتا بیس من',
       backgroundColor: brandInfo,
       borderColor: 'rgba(255,255,255,.55)',
       data: [1, 18, 9, 17, 34, 22, 11],
@@ -149,10 +149,10 @@ const cardChartOpts2 = {
 
 // Card Chart 3
 const cardChartData3 = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'اولین دیتا بیس من',
       backgroundColor: 'rgba(255,255,255,.2)',
       borderColor: 'rgba(255,255,255,.55)',
       data: [78, 81, 80, 45, 34, 12, 40],
@@ -193,10 +193,10 @@ const cardChartOpts3 = {
 
 // Card Chart 4
 const cardChartData4 = {
-  labels: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''],
+  labels: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'اولین دیتا بیس من',
       backgroundColor: 'rgba(255,255,255,.3)',
       borderColor: 'transparent',
       data: [78, 81, 80, 45, 34, 12, 40, 75, 34, 89, 32, 68, 54, 72, 18, 98],
@@ -228,16 +228,16 @@ const cardChartOpts4 = {
 
 // Social Box Chart
 const socialBoxData = [
-  { data: [65, 59, 84, 84, 51, 55, 40], label: 'facebook' },
-  { data: [1, 13, 9, 17, 34, 41, 38], label: 'twitter' },
-  { data: [78, 81, 80, 45, 34, 12, 40], label: 'linkedin' },
-  { data: [35, 23, 56, 22, 97, 23, 64], label: 'google' },
+  { data: [65, 59, 84, 84, 51, 55, 40], label: 'فیسبوک' },
+  { data: [1, 13, 9, 17, 34, 41, 38], label: 'توئیتر' },
+  { data: [78, 81, 80, 45, 34, 12, 40], label: 'لینکدین' },
+  { data: [35, 23, 56, 22, 97, 23, 64], label: 'گوگل' },
 ];
 
 const makeSocialBoxData = (dataSetNo) => {
   const dataset = socialBoxData[dataSetNo];
   const data = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    labels: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر'],
     datasets: [
       {
         backgroundColor: 'rgba(255,255,255,.1)',
@@ -286,34 +286,34 @@ const socialChartOpts = {
 const sparkLineChartData = [
   {
     data: [35, 23, 56, 22, 97, 23, 64],
-    label: 'New Clients',
+    label: 'کاربران جدید',
   },
   {
     data: [65, 59, 84, 84, 51, 55, 40],
-    label: 'Recurring Clients',
+    label: 'کاربران دعوت شده',
   },
   {
     data: [35, 23, 56, 22, 97, 23, 64],
-    label: 'Pageviews',
+    label: 'صفحات دیده شده',
   },
   {
     data: [65, 59, 84, 84, 51, 55, 40],
-    label: 'Organic',
+    label: 'طبیعی',
   },
   {
     data: [78, 81, 80, 45, 34, 12, 40],
-    label: 'CTR',
+    label: 'سی تی ار',
   },
   {
     data: [1, 13, 9, 17, 34, 41, 38],
-    label: 'Bounce Rate',
+    label: 'نرخ گزاف گویی',
   },
 ];
 
 const makeSparkLineData = (dataSetNo, variant) => {
   const dataset = sparkLineChartData[dataSetNo];
   const data = {
-    labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    labels: ['دوشنبه', 'سه شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه', 'شنبه', 'یک‌شنبه'],
     datasets: [
       {
         backgroundColor: 'transparent',
@@ -378,10 +378,10 @@ for (var i = 0; i <= elements; i++) {
 }
 
 const mainChart = {
-  labels: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'],
+  labels: ['شنبه', 'یک‌شنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه', 'شنبه', 'یک‌شنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه', 'شنبه', 'یک‌شنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه', 'شنبه', 'یک‌شنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه'],
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'اولین دیتا بیس من',
       backgroundColor: hexToRgba(brandInfo, 10),
       borderColor: brandInfo,
       pointHoverBackgroundColor: '#fff',
@@ -389,7 +389,7 @@ const mainChart = {
       data: data1,
     },
     {
-      label: 'My Second dataset',
+      label: 'دومین دیتابیس من',
       backgroundColor: 'transparent',
       borderColor: brandSuccess,
       pointHoverBackgroundColor: '#fff',
@@ -397,7 +397,7 @@ const mainChart = {
       data: data2,
     },
     {
-      label: 'My Third dataset',
+      label: 'سومین دیتابیس من',
       backgroundColor: 'transparent',
       borderColor: brandDanger,
       pointHoverBackgroundColor: '#fff',
@@ -477,7 +477,7 @@ class Dashboard extends Component {
     });
   }
 
-  loading = () => <div className="animated fadeIn pt-1 text-center">Loading...</div>
+  loading = () => <div className="animated fadeIn pt-1 text-center">بارگذاری...</div>
 
   render() {
 
@@ -493,15 +493,15 @@ class Dashboard extends Component {
                       <i className="icon-settings"></i>
                     </DropdownToggle>
                     <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem disabled>Disabled action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
+                      <DropdownItem>عملیات اول</DropdownItem>
+                      <DropdownItem>یک عملیات دیگر</DropdownItem>
+                      <DropdownItem disabled>عملیات غیر فعال</DropdownItem>
+                      <DropdownItem>چیزای دیگه</DropdownItem>
                     </DropdownMenu>
                   </ButtonDropdown>
                 </ButtonGroup>
                 <div className="text-value">9.823</div>
-                <div>Members online</div>
+                <div>کاربران انلاین 1</div>
               </CardBody>
               <div className="chart-wrapper mx-3" style={{ height: '70px' }}>
                 <Line data={cardChartData2} options={cardChartOpts2} height={70} />
@@ -514,18 +514,18 @@ class Dashboard extends Component {
               <CardBody className="pb-0">
                 <ButtonGroup className="float-right">
                   <Dropdown id='card2' isOpen={this.state.card2} toggle={() => { this.setState({ card2: !this.state.card2 }); }}>
-                    <DropdownToggle className="p-0" color="transparent">
+                     <DropdownToggle  className="p-0" color="transparent"> {/* این باعث اومدن دکمه رو به پایین میشه caret */}
                       <i className="icon-location-pin"></i>
                     </DropdownToggle>
                     <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
+                      <DropdownItem>عملیات اول</DropdownItem>
+                      <DropdownItem>یک عملیات دگیر</DropdownItem>
+                      <DropdownItem>چیزای دیگه</DropdownItem>
                     </DropdownMenu>
                   </Dropdown>
                 </ButtonGroup>
                 <div className="text-value">9.823</div>
-                <div>Members online</div>
+                <div>کاربران انلاین 2</div>
               </CardBody>
               <div className="chart-wrapper mx-3" style={{ height: '70px' }}>
                 <Line data={cardChartData1} options={cardChartOpts1} height={70} />
@@ -542,14 +542,14 @@ class Dashboard extends Component {
                       <i className="icon-settings"></i>
                     </DropdownToggle>
                     <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
+                      <DropdownItem>عملیات اول</DropdownItem>
+                      <DropdownItem>یک عملیات دگیر</DropdownItem>
+                      <DropdownItem>چیزای دیگه</DropdownItem>
                     </DropdownMenu>
                   </Dropdown>
                 </ButtonGroup>
                 <div className="text-value">9.823</div>
-                <div>Members online</div>
+                <div>کاربران انلاین 3</div>
               </CardBody>
               <div className="chart-wrapper" style={{ height: '70px' }}>
                 <Line data={cardChartData3} options={cardChartOpts3} height={70} />
@@ -566,14 +566,14 @@ class Dashboard extends Component {
                       <i className="icon-settings"></i>
                     </DropdownToggle>
                     <DropdownMenu right>
-                      <DropdownItem>Action</DropdownItem>
-                      <DropdownItem>Another action</DropdownItem>
-                      <DropdownItem>Something else here</DropdownItem>
+                      <DropdownItem>عملیات اول</DropdownItem>
+                      <DropdownItem>یک عملیات دگیر</DropdownItem>
+                      <DropdownItem>چیزای دیگه</DropdownItem>
                     </DropdownMenu>
                   </ButtonDropdown>
                 </ButtonGroup>
                 <div className="text-value">9.823</div>
-                <div>Members online</div>
+                <div>کاربران انلاین 4</div>
               </CardBody>
               <div className="chart-wrapper mx-3" style={{ height: '70px' }}>
                 <Bar data={cardChartData4} options={cardChartOpts4} height={70} />
@@ -587,16 +587,16 @@ class Dashboard extends Component {
               <CardBody>
                 <Row>
                   <Col sm="5">
-                    <CardTitle className="mb-0">Traffic</CardTitle>
-                    <div className="small text-muted">November 2015</div>
+                    <CardTitle className="mb-0">ترافیک</CardTitle>
+                    <div className="small text-muted">اسفند 98</div>
                   </Col>
                   <Col sm="7" className="d-none d-sm-inline-block">
                     <Button color="primary" className="float-right"><i className="icon-cloud-download"></i></Button>
                     <ButtonToolbar className="float-right" aria-label="Toolbar with button groups">
                       <ButtonGroup className="mr-3" aria-label="First group">
-                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(1)} active={this.state.radioSelected === 1}>Day</Button>
-                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(2)} active={this.state.radioSelected === 2}>Month</Button>
-                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(3)} active={this.state.radioSelected === 3}>Year</Button>
+                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(1)} active={this.state.radioSelected === 1}>روز</Button>
+                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(2)} active={this.state.radioSelected === 2}>ماه</Button>
+                        <Button color="outline-secondary" onClick={() => this.onRadioBtnClick(3)} active={this.state.radioSelected === 3}>سال</Button>
                       </ButtonGroup>
                     </ButtonToolbar>
                   </Col>
@@ -608,28 +608,28 @@ class Dashboard extends Component {
               <CardFooter>
                 <Row className="text-center">
                   <Col sm={12} md className="mb-sm-2 mb-0">
-                    <div className="text-muted">Visits</div>
-                    <strong>29.703 Users (40%)</strong>
+                    <div className="text-muted">بازدیدها</div>
+                    <strong>29.703 کاربران (40%)</strong>
                     <Progress className="progress-xs mt-2" color="success" value="40" />
                   </Col>
                   <Col sm={12} md className="mb-sm-2 mb-0 d-md-down-none">
-                    <div className="text-muted">Unique</div>
-                    <strong>24.093 Users (20%)</strong>
+                    <div className="text-muted">مشاهده تک صفحه</div>
+                    <strong>24.093 کاربران (20%)</strong>
                     <Progress className="progress-xs mt-2" color="info" value="20" />
                   </Col>
                   <Col sm={12} md className="mb-sm-2 mb-0">
-                    <div className="text-muted">Pageviews</div>
-                    <strong>78.706 Views (60%)</strong>
+                    <div className="text-muted">صفحات دیده شده</div>
+                    <strong>78.706 دیده شده (60%)</strong>
                     <Progress className="progress-xs mt-2" color="warning" value="60" />
                   </Col>
                   <Col sm={12} md className="mb-sm-2 mb-0">
-                    <div className="text-muted">New Users</div>
-                    <strong>22.123 Users (80%)</strong>
+                    <div className="text-muted">کاربران جدید</div>
+                    <strong>22.123 کاربران (80%)</strong>
                     <Progress className="progress-xs mt-2" color="danger" value="80" />
                   </Col>
                   <Col sm={12} md className="mb-sm-2 mb-0 d-md-down-none">
-                    <div className="text-muted">Bounce Rate</div>
-                    <strong>Average Rate (40.15%)</strong>
+                    <div className="text-muted">نرخ گزافه گویی</div>
+                    <strong>نرخ میانگین (40.15%)</strong>
                     <Progress className="progress-xs mt-2" color="primary" value="40" />
                   </Col>
                 </Row>
@@ -641,7 +641,7 @@ class Dashboard extends Component {
         <Row>
           <Col xs="6" sm="6" lg="3">
             <Suspense fallback={this.loading()}>
-              <Widget03 dataBox={() => ({ variant: 'facebook', friends: '89k', feeds: '459' })} >
+              <Widget03 dataBox={() => ({ variant: 'فسیک بوک', friends: '89k', feeds: '459' })} >
                 <div className="chart-wrapper">
                   <Line data={makeSocialBoxData(0)} options={socialChartOpts} height={90} />
                 </div>
@@ -651,7 +651,7 @@ class Dashboard extends Component {
 
           <Col xs="6" sm="6" lg="3">
             <Suspense fallback={this.loading()}>
-              <Widget03 dataBox={() => ({ variant: 'twitter', followers: '973k', tweets: '1.792' })} >
+              <Widget03 dataBox={() => ({ variant: 'توئیتر', followers: '973k', tweets: '1.792' })} >
                 <div className="chart-wrapper">
                   <Line data={makeSocialBoxData(1)} options={socialChartOpts} height={90} />
                 </div>
@@ -661,7 +661,7 @@ class Dashboard extends Component {
 
           <Col xs="6" sm="6" lg="3">
             <Suspense fallback={this.loading()}>
-              <Widget03 dataBox={() => ({ variant: 'linkedin', contacts: '500+', feeds: '292' })} >
+              <Widget03 dataBox={() => ({ variant: 'لینکدین', contacts: '500+', feeds: '292' })} >
                 <div className="chart-wrapper">
                   <Line data={makeSocialBoxData(2)} options={socialChartOpts} height={90} />
                 </div>
@@ -671,7 +671,7 @@ class Dashboard extends Component {
 
           <Col xs="6" sm="6" lg="3">
             <Suspense fallback={this.loading()}>
-              <Widget03 dataBox={() => ({ variant: 'google-plus', followers: '894', circles: '92' })} >
+              <Widget03 dataBox={() => ({ variant: 'گوگل پلاس', followers: '894', circles: '92' })} >
                 <div className="chart-wrapper">
                   <Line data={makeSocialBoxData(3)} options={socialChartOpts} height={90} />
                 </div>
@@ -684,7 +684,7 @@ class Dashboard extends Component {
           <Col>
             <Card>
               <CardHeader>
-                Traffic {' & '} Sales
+                ترافیک {' & '} فروش
               </CardHeader>
               <CardBody>
                 <Row>
@@ -692,7 +692,7 @@ class Dashboard extends Component {
                     <Row>
                       <Col sm="6">
                         <div className="callout callout-info">
-                          <small className="text-muted">New Clients</small>
+                          <small className="text-muted">کاربران جدید</small>
                           <br />
                           <strong className="h4">9,123</strong>
                           <div className="chart-wrapper">
@@ -702,7 +702,7 @@ class Dashboard extends Component {
                       </Col>
                       <Col sm="6">
                         <div className="callout callout-danger">
-                          <small className="text-muted">Recurring Clients</small>
+                          <small className="text-muted">کاربران دعوت شده</small>
                           <br />
                           <strong className="h4">22,643</strong>
                           <div className="chart-wrapper">
@@ -715,7 +715,7 @@ class Dashboard extends Component {
                     <div className="progress-group mb-4">
                       <div className="progress-group-prepend">
                         <span className="progress-group-text">
-                          Monday
+                          دوشنبه
                         </span>
                       </div>
                       <div className="progress-group-bars">
@@ -726,7 +726,7 @@ class Dashboard extends Component {
                     <div className="progress-group mb-4">
                       <div className="progress-group-prepend">
                         <span className="progress-group-text">
-                        Tuesday
+                        سه‌شنبه
                         </span>
                       </div>
                       <div className="progress-group-bars">
@@ -737,7 +737,7 @@ class Dashboard extends Component {
                     <div className="progress-group mb-4">
                       <div className="progress-group-prepend">
                         <span className="progress-group-text">
-                        Wednesday
+                        چهار‌شنبه
                         </span>
                       </div>
                       <div className="progress-group-bars">
@@ -748,7 +748,7 @@ class Dashboard extends Component {
                     <div className="progress-group mb-4">
                       <div className="progress-group-prepend">
                         <span className="progress-group-text">
-                        Thursday
+                        پنج‌شنبه
                         </span>
                       </div>
                       <div className="progress-group-bars">
@@ -759,7 +759,7 @@ class Dashboard extends Component {
                     <div className="progress-group mb-4">
                       <div className="progress-group-prepend">
                         <span className="progress-group-text">
-                        Friday
+                        جمعه
                         </span>
                       </div>
                       <div className="progress-group-bars">
@@ -770,7 +770,7 @@ class Dashboard extends Component {
                     <div className="progress-group mb-4">
                       <div className="progress-group-prepend">
                         <span className="progress-group-text">
-                        Saturday
+                        شنبه
                         </span>
                       </div>
                       <div className="progress-group-bars">
@@ -781,7 +781,7 @@ class Dashboard extends Component {
                     <div className="progress-group mb-4">
                       <div className="progress-group-prepend">
                         <span className="progress-group-text">
-                        Sunday
+                        یک‌شنبه
                         </span>
                       </div>
                       <div className="progress-group-bars">
@@ -792,10 +792,10 @@ class Dashboard extends Component {
                     <div className="legend text-center">
                       <small>
                         <sup className="px-1"><Badge pill color="info">&nbsp;</Badge></sup>
-                        New clients
+                        کاربران جدید
                         &nbsp;
                         <sup className="px-1"><Badge pill color="danger">&nbsp;</Badge></sup>
-                        Recurring clients
+                        کاربران دعوت شده
                       </small>
                     </div>
                   </Col>
@@ -803,7 +803,7 @@ class Dashboard extends Component {
                     <Row>
                       <Col sm="6">
                         <div className="callout callout-warning">
-                          <small className="text-muted">Pageviews</small>
+                          <small className="text-muted">صفحات دیده شده</small>
                           <br />
                           <strong className="h4">78,623</strong>
                           <div className="chart-wrapper">
@@ -813,7 +813,7 @@ class Dashboard extends Component {
                       </Col>
                       <Col sm="6">
                         <div className="callout callout-success">
-                          <small className="text-muted">Organic</small>
+                          <small className="text-muted">جستجوی عادی</small>
                           <br />
                           <strong className="h4">49,123</strong>
                           <div className="chart-wrapper">
@@ -827,7 +827,7 @@ class Dashboard extends Component {
                       <div className="progress-group">
                         <div className="progress-group-header">
                           <i className="icon-user progress-group-icon"></i>
-                          <span className="title">Male</span>
+                          <span className="title">مرد</span>
                           <span className="ml-auto font-weight-bold">43%</span>
                         </div>
                         <div className="progress-group-bars">
@@ -837,7 +837,7 @@ class Dashboard extends Component {
                       <div className="progress-group mb-5">
                         <div className="progress-group-header">
                           <i className="icon-user-female progress-group-icon"></i>
-                          <span className="title">Female</span>
+                          <span className="title">زن</span>
                           <span className="ml-auto font-weight-bold">37%</span>
                         </div>
                         <div className="progress-group-bars">
@@ -847,7 +847,7 @@ class Dashboard extends Component {
                       <div className="progress-group">
                         <div className="progress-group-header">
                           <i className="icon-globe progress-group-icon"></i>
-                          <span className="title">Organic Search</span>
+                          <span className="title">جستجوتوی عادی</span>
                           <span className="ml-auto font-weight-bold">191,235 <span className="text-muted small">(56%)</span></span>
                         </div>
                         <div className="progress-group-bars">
@@ -857,7 +857,7 @@ class Dashboard extends Component {
                       <div className="progress-group">
                         <div className="progress-group-header">
                           <i className="icon-social-facebook progress-group-icon"></i>
-                          <span className="title">Facebook</span>
+                          <span className="title">فیسبوک</span>
                           <span className="ml-auto font-weight-bold">51,223 <span className="text-muted small">(15%)</span></span>
                         </div>
                         <div className="progress-group-bars">
@@ -867,7 +867,7 @@ class Dashboard extends Component {
                       <div className="progress-group">
                         <div className="progress-group-header">
                           <i className="icon-social-twitter progress-group-icon"></i>
-                          <span className="title">Twitter</span>
+                          <span className="title">توئیتر</span>
                           <span className="ml-auto font-weight-bold">37,564 <span className="text-muted small">(11%)</span></span>
                         </div>
                         <div className="progress-group-bars">
@@ -877,7 +877,7 @@ class Dashboard extends Component {
                       <div className="progress-group">
                         <div className="progress-group-header">
                           <i className="icon-social-linkedin progress-group-icon"></i>
-                          <span className="title">LinkedIn</span>
+                          <span className="title">لینکدین</span>
                           <span className="ml-auto font-weight-bold">27,319 <span className="text-muted small">(8%)</span></span>
                         </div>
                         <div className="progress-group-bars">
@@ -896,11 +896,11 @@ class Dashboard extends Component {
                   <thead className="thead-light">
                   <tr>
                     <th className="text-center"><i className="icon-people"></i></th>
-                    <th>User</th>
-                    <th className="text-center">Country</th>
-                    <th>Usage</th>
-                    <th className="text-center">Payment Method</th>
-                    <th>Activity</th>
+                    <th>کاربر</th>
+                    <th className="text-center">کشور</th>
+                    <th>میزان استفاده</th>
+                    <th className="text-center">شیوه پرداخت</th>
+                    <th>فعالیت</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -912,9 +912,9 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td>
-                      <div>Yiorgos Avraamu</div>
+                      <div>مهسا حیدری</div>
                       <div className="small text-muted">
-                        <span>New</span> | Registered: Jan 1, 2015
+                        <span>جدید</span> | تاریخ ثبت نام: بهمن 1, 2015
                       </div>
                     </td>
                     <td className="text-center">
@@ -926,7 +926,7 @@ class Dashboard extends Component {
                           <strong>50%</strong>
                         </div>
                         <div className="float-right">
-                          <small className="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+                          <small className="text-muted">اسفند 11, 1398 - فروردین 10, 1399</small>
                         </div>
                       </div>
                       <Progress className="progress-xs" color="success" value="50" />
@@ -935,8 +935,8 @@ class Dashboard extends Component {
                       <i className="fa fa-cc-mastercard" style={{ fontSize: 24 + 'px' }}></i>
                     </td>
                     <td>
-                      <div className="small text-muted">Last login</div>
-                      <strong>10 sec ago</strong>
+                      <div className="small text-muted">اخرین ورود</div>
+                      <strong>10 ثانیه پیش</strong>
                     </td>
                   </tr>
                   <tr>
@@ -947,10 +947,10 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td>
-                      <div>Avram Tarasios</div>
+                      <div>هانیه معصومی</div>
                       <div className="small text-muted">
 
-                        <span>Recurring</span> | Registered: Jan 1, 2015
+                        <span>دعوت شده</span> | ثبت نام: اسفند 1, 1398
                       </div>
                     </td>
                     <td className="text-center">
@@ -962,7 +962,7 @@ class Dashboard extends Component {
                           <strong>10%</strong>
                         </div>
                         <div className="float-right">
-                          <small className="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+                          <small className="text-muted">1398 11, 1398 - ابان 10, 2015</small>
                         </div>
                       </div>
                       <Progress className="progress-xs" color="info" value="10" />
@@ -971,8 +971,8 @@ class Dashboard extends Component {
                       <i className="fa fa-cc-visa" style={{ fontSize: 24 + 'px' }}></i>
                     </td>
                     <td>
-                      <div className="small text-muted">Last login</div>
-                      <strong>5 minutes ago</strong>
+                      <div className="small text-muted">اخرین ورود</div>
+                      <strong>5 دقیقه پیش</strong>
                     </td>
                   </tr>
                   <tr>
@@ -983,9 +983,9 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td>
-                      <div>Quintin Ed</div>
+                      <div>جعفر مود</div>
                       <div className="small text-muted">
-                        <span>New</span> | Registered: Jan 1, 2015
+                        <span>جدید</span> | ثبت‌نام: بهمن 1, 1377
                       </div>
                     </td>
                     <td className="text-center">
@@ -997,7 +997,7 @@ class Dashboard extends Component {
                           <strong>74%</strong>
                         </div>
                         <div className="float-right">
-                          <small className="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+                          <small className="text-muted">دی 11, 1387 - اردیبهشت 10, 1396</small>
                         </div>
                       </div>
                       <Progress className="progress-xs" color="warning" value="74" />
@@ -1006,8 +1006,8 @@ class Dashboard extends Component {
                       <i className="fa fa-cc-stripe" style={{ fontSize: 24 + 'px' }}></i>
                     </td>
                     <td>
-                      <div className="small text-muted">Last login</div>
-                      <strong>1 hour ago</strong>
+                      <div className="small text-muted">اخرین ورود</div>
+                      <strong>1 ساعت پیش</strong>
                     </td>
                   </tr>
                   <tr>
@@ -1018,9 +1018,9 @@ class Dashboard extends Component {
                       </div>
                     </td>
                     <td>
-                      <div>Enéas Kwadwo</div>
+                      <div>mohamad karimi</div>
                       <div className="small text-muted">
-                        <span>New</span> | Registered: Jan 1, 2015
+                        <span>جدید</span> | ثبت‌نام: بهمن 1, 1377
                       </div>
                     </td>
                     <td className="text-center">
@@ -1032,7 +1032,7 @@ class Dashboard extends Component {
                           <strong>98%</strong>
                         </div>
                         <div className="float-right">
-                          <small className="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+                        <small className="text-muted">دی 11, 1387 - اردیبهشت 10, 1396</small>
                         </div>
                       </div>
                       <Progress className="progress-xs" color="danger" value="98" />
@@ -1041,8 +1041,8 @@ class Dashboard extends Component {
                       <i className="fa fa-paypal" style={{ fontSize: 24 + 'px' }}></i>
                     </td>
                     <td>
-                      <div className="small text-muted">Last login</div>
-                      <strong>Last month</strong>
+                      <div className="small text-muted">اخرین ورود</div>
+                      <strong>ماه گذشته</strong>
                     </td>
                   </tr>
                   <tr>
@@ -1055,7 +1055,7 @@ class Dashboard extends Component {
                     <td>
                       <div>Agapetus Tadeáš</div>
                       <div className="small text-muted">
-                        <span>New</span> | Registered: Jan 1, 2015
+                       <span>جدید</span> | ثبت‌نام: بهمن 1, 1377
                       </div>
                     </td>
                     <td className="text-center">
@@ -1067,7 +1067,7 @@ class Dashboard extends Component {
                           <strong>22%</strong>
                         </div>
                         <div className="float-right">
-                          <small className="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+                          <small className="text-muted">دی 11, 1387 - اردیبهشت 10, 1396</small>
                         </div>
                       </div>
                       <Progress className="progress-xs" color="info" value="22" />
@@ -1076,8 +1076,8 @@ class Dashboard extends Component {
                       <i className="fa fa-google-wallet" style={{ fontSize: 24 + 'px' }}></i>
                     </td>
                     <td>
-                      <div className="small text-muted">Last login</div>
-                      <strong>Last week</strong>
+                      <div className="small text-muted">اخرین ورود</div>
+                      <strong>هفته گذشته</strong>
                     </td>
                   </tr>
                   <tr>
@@ -1090,7 +1090,7 @@ class Dashboard extends Component {
                     <td>
                       <div>Friderik Dávid</div>
                       <div className="small text-muted">
-                        <span>New</span> | Registered: Jan 1, 2015
+                       <span>جدید</span> | ثبت‌نام: بهمن 1, 1377
                       </div>
                     </td>
                     <td className="text-center">
@@ -1102,7 +1102,7 @@ class Dashboard extends Component {
                           <strong>43%</strong>
                         </div>
                         <div className="float-right">
-                          <small className="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+                        <small className="text-muted">دی 11, 1387 - اردیبهشت 10, 1396</small>
                         </div>
                       </div>
                       <Progress className="progress-xs" color="success" value="43" />
@@ -1111,8 +1111,8 @@ class Dashboard extends Component {
                       <i className="fa fa-cc-amex" style={{ fontSize: 24 + 'px' }}></i>
                     </td>
                     <td>
-                      <div className="small text-muted">Last login</div>
-                      <strong>Yesterday</strong>
+                      <div className="small text-muted">اخرین ورود</div>
+                      <strong>دیروز</strong>
                     </td>
                   </tr>
                   </tbody>

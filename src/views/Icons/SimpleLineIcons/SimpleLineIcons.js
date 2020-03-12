@@ -7,7 +7,7 @@ class SimpleLineIcons extends Component {
       <div className="animated fadeIn">
         <Card>
           <CardHeader>
-            <i className="fa fa-picture-o"></i> Simple Line Icons
+            <i className="fa fa-picture-o"></i> ایکون‌های ساده
           </CardHeader>
           <CardBody>
             <Row className="text-center">

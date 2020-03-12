@@ -1,73 +1,73 @@
 export default {
   items: [
     {
-      name: 'Dashboard',
+      name: 'داشبورد',
       url: '/dashboard',
       icon: 'icon-speedometer',
       badge: {
         variant: 'info',
-        text: 'NEW',
+        text: 'جدید',
       },
     },
     {
       title: true,
-      name: 'Theme',
+      name: '* تم‌ها',
       wrapper: {            // optional wrapper object
         element: '',        // required valid HTML5 element tag
-        attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
+        attributes: { }        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
       },
       class: ''             // optional class names space delimited list for title item ex: "text-center"
     },
     {
-      name: 'Colors',
+      name: '‌رنگ‌ها',
       url: '/theme/colors',
       icon: 'icon-drop',
     },
     {
-      name: 'Typography',
+      name: 'انواع سبک های نوشتن',
       url: '/theme/typography',
       icon: 'icon-pencil',
     },
     {
       title: true,
-      name: 'Components',
+      name: '‌کامپوننت‌ها',
       wrapper: {
         element: '',
         attributes: {},
       },
     },
     {
-      name: 'Base',
+      name: 'اجزا اصلی',
       url: '/base',
       icon: 'icon-puzzle',
       children: [
         {
-          name: 'Breadcrumbs',
+          name: ' انواع ادرس محل فعلی',
           url: '/base/breadcrumbs',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Cards',
+          name: 'انواع کارت‌',
           url: '/base/cards',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Carousels',
+          name: 'انواع اسلادر',
           url: '/base/carousels',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Collapses',
+          name: 'انواع کولپس‌',
           url: '/base/collapses',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Dropdowns',
+          name: 'انواع دروپ دون‌ ',
           url: '/base/dropdowns',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Forms',
+          name: 'انواع فرم‌',
           url: '/base/forms',
           icon: 'icon-puzzle',
         },
@@ -77,17 +77,17 @@ export default {
           icon: 'icon-puzzle',
         },
         {
-          name: 'List groups',
+          name: 'انواع لیست گروهی',
           url: '/base/list-groups',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Navs',
+          name: 'انواع زبانه‌',
           url: '/base/navs',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Paginations',
+          name: 'انواع صفحه بندی',
           url: '/base/paginations',
           icon: 'icon-puzzle',
         },
@@ -97,22 +97,22 @@ export default {
           icon: 'icon-puzzle',
         },
         {
-          name: 'Progress Bar',
+          name: 'انواع نوار میزان پیشرفت',
           url: '/base/progress-bar',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Switches',
+          name: 'انواع کلید',
           url: '/base/switches',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Tables',
+          name: 'انواع جدول ‌',
           url: '/base/tables',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Tabs',
+          name: 'انواع تب بندی‌',
           url: '/base/tabs',
           icon: 'icon-puzzle',
         },
@@ -124,12 +124,12 @@ export default {
       ],
     },
     {
-      name: 'Buttons',
+      name: 'کلید‌',
       url: '/buttons',
       icon: 'icon-cursor',
       children: [
         {
-          name: 'Buttons',
+          name: 'انواع کلید‌',
           url: '/buttons/buttons',
           icon: 'icon-cursor',
         },
@@ -151,17 +151,17 @@ export default {
       ],
     },
     {
-      name: 'Charts',
+      name: 'چارت',
       url: '/charts',
       icon: 'icon-pie-chart',
     },
     {
-      name: 'Icons',
+      name: 'نماد و اشکال',
       url: '/icons',
       icon: 'icon-star',
       children: [
         {
-          name: 'CoreUI Icons',
+          name: 'CoreUI ایکون های',
           url: '/icons/coreui-icons',
           icon: 'icon-star',
           badge: {
@@ -170,7 +170,7 @@ export default {
           },
         },
         {
-          name: 'Flags',
+          name: 'انواع پرچم',
           url: '/icons/flags',
           icon: 'icon-star',
         },
@@ -184,36 +184,36 @@ export default {
           },
         },
         {
-          name: 'Simple Line Icons',
+          name: 'ایکون های ساده',
           url: '/icons/simple-line-icons',
           icon: 'icon-star',
         },
       ],
     },
     {
-      name: 'Notifications',
+      name: 'پیام‌ها',
       url: '/notifications',
       icon: 'icon-bell',
       children: [
         {
-          name: 'Alerts',
+          name: 'انواع هشدار',
           url: '/notifications/alerts',
           icon: 'icon-bell',
         },
         {
-          name: 'Badges',
+          name: 'انواع روش برجسته کردن',
           url: '/notifications/badges',
           icon: 'icon-bell',
         },
         {
-          name: 'Modals',
+          name: 'انواع مودال',
           url: '/notifications/modals',
           icon: 'icon-bell',
         },
       ],
     },
     {
-      name: 'Widgets',
+      name: 'ابزار های نمایش',
       url: '/widgets',
       icon: 'icon-calculator',
       badge: {
@@ -226,43 +226,43 @@ export default {
     },
     {
       title: true,
-      name: 'Extras',
+      name: 'موارد اضافی',
     },
     {
-      name: 'Pages',
+      name: 'انواع صفحه',
       url: '/pages',
       icon: 'icon-star',
       children: [
         {
-          name: 'Login',
+          name: 'صفحه ورود',
           url: '/login',
           icon: 'icon-star',
         },
         {
-          name: 'Register',
+          name: 'صفحه ثبت نام',
           url: '/register',
           icon: 'icon-star',
         },
         {
-          name: 'Error 404',
+          name: 'ارور 404',
           url: '/404',
           icon: 'icon-star',
         },
         {
-          name: 'Error 500',
+          name: 'ارور 500',
           url: '/500',
           icon: 'icon-star',
         },
       ],
     },
     {
-      name: 'Disabled',
+      name: 'غیرفعال',
       url: '/dashboard',
       icon: 'icon-ban',
       attributes: { disabled: true },
     },
     {
-      name: 'Download CoreUI',
+      name: 'دانلود CoreUI',
       url: 'https://coreui.io/react/',
       icon: 'icon-cloud-download',
       class: 'mt-auto',
