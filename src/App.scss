@@ -10,7 +10,11 @@
 // Import Main styles for this application
 @import './scss/style.scss';
 
-// import vazir font
+  // import vazir font  but myabe it not work becuse of bootstrap - bootstrap apply font to body 
 body {
-    font-family: 'Vazir', sans-serif
-  }
+  font-family: 'Vazir', sans-serif
+}
+// import vazir font i add vazir font to body to resolve this conflite
+div {
+  font-family: 'Vazir', sans-serif
+}
