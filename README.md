@@ -68,7 +68,7 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 
 ``` bash
 # clone the repo
-$ git clone https://github.com/coreui/coreui-free-react-admin-template.git my-project
+$ git clone https://github.com/S0TTI/coreui-free-react-admin-template-farsi.git my-project
 
 # go into app's directory
 $ cd my-project
